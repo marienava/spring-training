@@ -17,11 +17,18 @@
         <option value="$PROJECT_DIR$/spring-11-Data-TableCreation/pom.xml" />
         <option value="$PROJECT_DIR$/spring-12-Data-Relationship/pom.xml" />
         <option value="$PROJECT_DIR$/spring-13-Cinema-Lab/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-14-Data-Queries/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-15-Rest/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-16-Rest-Jackson/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-17-Rest-ConsumingAPIs/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="openjdk-18" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
   </component>
   <component name="SwUserDefinedSpecifications">
     <option name="specTypeByUrl">

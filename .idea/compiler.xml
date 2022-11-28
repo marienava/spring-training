@@ -13,14 +13,18 @@
         <module name="spring-00-Coupling" />
         <module name="spring-01-Core-IoC-Bean-Annotation" />
         <module name="spring-05-Core-Abstraction" />
+        <module name="spring-17-Rest-ConsumingAPIs" />
         <module name="spring-09-MVC-Model" />
         <module name="spring-08-MVC-Controller" />
         <module name="spring-02-Core-IoC-Stereotype-Annotation" />
+        <module name="spring-15-Rest" />
         <module name="spring-12-Data-Relationship" />
+        <module name="spring-14-Data-Queries" />
         <module name="spring-13-Cinema-Lab" />
         <module name="spring-04-Autowiring" />
         <module name="spring-06-Core-BeanScope" />
         <module name="spring-07-SpringBoot-Demo" />
+        <module name="spring-16-Rest-Jackson" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -38,6 +42,10 @@
       <module name="spring-11-Data-TableCreation" target="11" />
       <module name="spring-12-Data-Relationship" target="11" />
       <module name="spring-13-Cinema-Lab" target="11" />
+      <module name="spring-14-Data-Queries" target="11" />
+      <module name="spring-15-Rest" target="11" />
+      <module name="spring-16-Rest-Jackson" target="11" />
+      <module name="spring-17-Rest-ConsumingAPIs" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -50,6 +58,10 @@
       <module name="spring-11-Data-TableCreation" options="-parameters" />
       <module name="spring-12-Data-Relationship" options="-parameters" />
       <module name="spring-13-Cinema-Lab" options="-parameters" />
+      <module name="spring-14-Data-Queries" options="-parameters" />
+      <module name="spring-15-Rest" options="-parameters" />
+      <module name="spring-16-Rest-Jackson" options="-parameters" />
+      <module name="spring-17-Rest-ConsumingAPIs" options="-parameters" />
     </option>
   </component>
 </project>
