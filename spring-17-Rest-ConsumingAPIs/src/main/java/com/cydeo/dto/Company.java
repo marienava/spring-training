@@ -1,4 +1,3 @@
-
 package com.cydeo.dto;
 
 import java.util.HashMap;
@@ -13,9 +12,9 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
-    "name",
-    "catchPhrase",
-    "bs"
+        "name",
+        "catchPhrase",
+        "bs"
 })
 @Generated("jsonschema2pojo")
 public class Company {
