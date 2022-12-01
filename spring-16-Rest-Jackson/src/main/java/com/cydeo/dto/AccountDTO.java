@@ -1,5 +1,6 @@
 package com.cydeo.dto;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.*;
 
 @Data
@@ -14,6 +15,7 @@ public class AccountDTO {
     private String city;
     private Integer age;
     private String postalCode;
+    @JsonBackReference
     private UserDTO user;
 
 }

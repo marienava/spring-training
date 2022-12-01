@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-10-Thymeleaf" />
+        <module name="spring-18-Rest-SchoolLab" />
         <module name="spring-11-Data-TableCreation" />
         <module name="spring-03-Wiring" />
         <module name="spring-00-Coupling" />
@@ -46,6 +47,7 @@
       <module name="spring-15-Rest" target="11" />
       <module name="spring-16-Rest-Jackson" target="11" />
       <module name="spring-17-Rest-ConsumingAPIs" target="11" />
+      <module name="spring-18-Rest-SchoolLab" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -62,6 +64,7 @@
       <module name="spring-15-Rest" options="-parameters" />
       <module name="spring-16-Rest-Jackson" options="-parameters" />
       <module name="spring-17-Rest-ConsumingAPIs" options="-parameters" />
+      <module name="spring-18-Rest-SchoolLab" options="-parameters" />
     </option>
   </component>
 </project>

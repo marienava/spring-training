@@ -21,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-15-Rest/spring-15-Rest.iml" filepath="$PROJECT_DIR$/spring-15-Rest/spring-15-Rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-16-Rest-Jackson/spring-16-Rest-Jackson.iml" filepath="$PROJECT_DIR$/spring-16-Rest-Jackson/spring-16-Rest-Jackson.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-17-Rest-ConsumingAPIs/spring-17-Rest-ConsumingAPIs.iml" filepath="$PROJECT_DIR$/spring-17-Rest-ConsumingAPIs/spring-17-Rest-ConsumingAPIs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-18-Rest-SchoolLab/spring-18-Rest-SchoolLab.iml" filepath="$PROJECT_DIR$/spring-18-Rest-SchoolLab/spring-18-Rest-SchoolLab.iml" />
     </modules>
   </component>
 </project>
