@@ -15,7 +15,7 @@ import reactor.core.publisher.Mono;
 @RestController
 public class Consume_WebClient {
 
-    private WebClient webClient = WebClient.builder().baseUrl("http://localhost:8080").build();
+    private WebClient webClient = WebClient.builder().baseUrl("http://localhost:8080").build(); //consuming my own aip I created
 
     private final MovieCinemaService movieCinemaService;
     private final GenreService genreService;
