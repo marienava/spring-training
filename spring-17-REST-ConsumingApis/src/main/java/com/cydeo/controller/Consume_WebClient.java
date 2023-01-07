@@ -25,6 +25,8 @@ public class Consume_WebClient {
         this.genreService = genreService;
     }
 
+    //I created some end point reactive ways
+
     @GetMapping("/flux-movie-cinemas")  //localhost:8080/flux-movie-cinemas
     public Flux<MovieCinemaDTO> readAllCinemaFlux(){
 
@@ -66,6 +68,7 @@ public class Consume_WebClient {
 
 //    ---------------------------WEBCLIENT---------------------------
 
+    //I consumed my own api
     @GetMapping("/flux")
     public Flux<MovieCinemaDTO> readWithWebClient(){
 
