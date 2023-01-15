@@ -55,7 +55,7 @@ public class SchoolController {
 
     @PutMapping("/address/{id}")
     public AddressDTO updateAddress(@PathVariable("id") Long id, @RequestBody AddressDTO addressDTO) throws Exception {
-        addressDTO.setId(id);
+        addressDTO.setId(id); //I have to set because of json ignore it will be ignored if i dont set
         return addressService.update(addressDTO);
     }
 
